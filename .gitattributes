@@ -1,0 +1,13 @@
+# Keep text files portable across Windows, macOS, and Linux.
+* text=auto
+
+# Preserve Windows launchers with Windows line endings.
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Keep binary assets byte-for-byte.
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.pdf binary
+*.woff2 binary

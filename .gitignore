@@ -10,6 +10,13 @@ build/
 .env.*
 !.env.example
 !.env.*.example
+*.pem
+*.key
+secrets/
+private-uploads/
+identity-documents/
+payment-proofs/
+backups/
 
 # Prisma generated client and local database files
 src/generated/prisma/
